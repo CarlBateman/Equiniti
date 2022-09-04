@@ -9,11 +9,6 @@ namespace Equiniti.Controllers
 	[Route("[controller]")]
 	public class TransactionController : ControllerBase
 	{
-		private static readonly string[] Summaries = new[]
-		{
-				"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-		};
-
 		private readonly ILogger<TransactionController> _logger;
 
 		public TransactionController(ILogger<TransactionController> logger)
