@@ -1,0 +1,48 @@
+﻿Create default Transaction file if missing
+
+
+
+create, read, update and delete
+
+return all 
+return all fields
+
+        "Id": "3f2b12b8-2a06-45b4-b057-45949279b4e5",
+        "ApplicationId": 197104,
+        "Type": "Debit",
+        "Summary": "Payment",
+        "Amount": 58.26,
+        "PostingDate": "2016-07-01T00:00:00",
+        "IsCleared": true,
+        "ClearedDate": "2016-07-02T00:00:00"
+
+Type : Debit, Credit
+Summary: Payment, Refund
+
+
+
+
+
+security
+levels
+  admin - CRUD
+  user - R
+
+
+update only set cleared date
+
+consider adding a transaction history with author
+delete - mark as delete don't delete
+
+
+
+
+admin access
+limited access
+
+
+MVC <<<=== NOPE we're building an API ONLY!!!
+BUT WE HAVE TO TEST IT!!!
+Model 
+View
+Controller
